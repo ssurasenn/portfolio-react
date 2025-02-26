@@ -1,0 +1,60 @@
+.technologies {
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+}
+.technologies h1 {
+    align-items: center;
+    justify-items: center;
+    margin: 35px 0;
+    font-size: 70px;
+}
+.technologies-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.technologies-wrapper {
+    display: flex;
+    padding: 10px;
+    background: #000;
+    border: 1px solid rgb(59, 58, 58);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.icon1 {
+    font-size: 60px;
+    color: rgb(32,144,165);
+}
+.icon2 {
+    font-size: 60px;
+    color: rgb(238, 244, 245);
+}
+.icon3 {
+    font-size: 60px;
+    color: #169540;
+}
+.icon4 {
+    font-size: 60px;
+    color: #005E97;
+}
+.icon5 {
+    font-size: 60px;
+    color: #2bc65f;
+}
+/* ปรับขนาดหัวข้อ */
+@media (max-width: 768px) {
+    .technologies h1 {
+        font-size: 60px; /* ปรับขนาดหัวเรื่องให้เหมาะสม */
+    }
+}
+
+@media (max-width: 576px) {
+    .technologies h1 {
+        font-size: 50px; /* ปรับขนาดหัวเรื่องให้เล็กลง */
+    }
+}

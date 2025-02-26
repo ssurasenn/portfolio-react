@@ -1,0 +1,81 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 90px 0px;
+    width: 100%;
+
+}
+.education-title {
+    font-size: 70px;
+}
+
+.education-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* จัดระยะห่างระหว่าง year กับ education-detail */
+    gap: 250px; 
+    margin-bottom: 30px;
+}
+
+.educations-year {
+    flex: 0 1 30%; /* กำหนดพื้นที่ให้กับปี โดยไม่ให้ยืดหรือหด */
+    font-size: 24px;
+}
+
+.educations-info {
+    flex: 1; /* ให้พื้นที่ของ education-detail ยืดเต็มที่ */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /*จัดตำแหน่งข้อมูลในแนวตั้ง */
+    font-size: 24px;
+}
+
+.education-detail {
+    display: flex;
+    align-items: center; /* จัดแนวให้ข้อมูลอยู่ในแนวเดียวกัน */
+    justify-content: space-between; /* จัดระยะห่างระหว่างปีและรายละเอียดให้เท่ากัน */
+}
+@media (max-width: 768px) {
+    .education-wrapper {
+        gap: 20px; /* ลดช่องว่างระหว่างคอลัมน์เมื่อหน้าจอเป็นแท็บเล็ต */
+        justify-content: center; /* จัดการให้ข้อมูลอยู่กลางหน้าจอ */
+    }
+
+    .educations-year {
+        flex: 0 1 40%;  /* ทำให้คอลัมน์ปีเล็กลงเป็น 40% */
+        font-size: 20px;
+    }
+
+    .educations-info {
+        flex: 1;
+        font-size: 20px; /* ลดขนาดฟอนต์ให้เหมาะสมกับขนาดหน้าจอ */
+    }
+
+    .education-title {
+        font-size: 50px; /* ลดขนาดฟอนต์ชื่อเรื่อง */
+    }
+}
+
+@media (max-width: 576px) {
+    .education-wrapper {
+        flex-direction: column; /* ใช้คอลัมน์เดียวเมื่อหน้าจอเล็กมาก */
+        gap: 15px; /* ลดช่องว่างระหว่างคอลัมน์ */
+    }
+
+    .educations-year {
+        flex: 0 1 100%;  /* ปีจะขยายเต็มพื้นที่ของหน้าจอ */
+        font-size: 18px; /* ลดขนาดฟอนต์ */
+        text-align: center;
+    }
+
+    .educations-info {
+        flex: 1;
+        font-size: 18px; /* ลดขนาดฟอนต์ให้เล็กลง */
+    }
+
+    .education-title {
+        font-size: 40px; /* ลดขนาดฟอนต์หัวข้อให้เหมาะสมกับมือถือ */
+    }
+}

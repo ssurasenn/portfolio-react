@@ -1,0 +1,147 @@
+.banner {
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 35px;
+    width: 100%;
+}
+.banner img {
+    margin-top: 150px;
+    border-radius: 50%;
+    width: 300px;
+    box-shadow: 0 15px 20px rgba(253, 240, 240, 0.15);
+}
+
+.banner h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 90px;
+    font-weight: 700;
+}
+.banner h1 span {
+    background: linear-gradient(267deg, #2923e1 10%, #f3af70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+.banner p {
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}  
+.banner-action {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;    
+    gap: 40px;
+}
+.banner-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #2923e1 -5%, #f3af70 100%) ;
+    cursor: pointer;
+    
+}
+.banner-resume {
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+
+}
+.banner-connect:hover {
+    border: 1px solid white;
+    transition: .2s ease-in;
+    transform: translateX(-8px);
+}
+.banner-resume:hover {
+    border-color: #2923e1;
+    transition: .2s ease-in;
+    transform: translateX(8px);
+}
+
+@media (max-width: 1024px) {
+    .banner img {
+        width: 250px; /* ปรับขนาดรูปภาพให้เล็กลงสำหรับหน้าจอขนาดกลาง */
+        height: 250px;
+    }
+
+    .banner h1 {
+        font-size: 70px; /* ลดขนาดฟอนต์หัวข้อ */
+        width: 80%;
+    }
+
+    .banner p {
+        width: 60%; /* ขยายข้อความให้กว้างขึ้นในหน้าจอขนาดกลาง */
+        font-size: 20px;
+    }
+
+    .banner-action {
+        gap: 30px; /* ลดช่องว่างระหว่างปุ่ม */
+    }
+
+    .banner-connect, .banner-resume {
+        padding: 20px 40px; /* ลดขนาดปุ่มให้เหมาะสม */
+    }
+}
+
+@media (max-width: 768px) {
+    .banner img {
+        width: 200px; /* ปรับขนาดรูปภาพให้เล็กลง */
+        height: 200px;
+        margin-top: 100px; /* ลดช่องว่างด้านบน */
+    }
+
+    .banner h1 {
+        font-size: 60px; /* ลดขนาดฟอนต์หัวข้อ */
+        width: 85%;
+    }
+
+    .banner p {
+        width: 70%; /* ขยายข้อความให้กว้างขึ้น */
+        font-size: 18px;
+    }
+
+    .banner-action {
+        gap: 20px; /* ลดช่องว่างระหว่างปุ่ม */
+    }
+
+    .banner-connect, .banner-resume {
+        padding: 18px 35px; /* ลดขนาดปุ่มให้เล็กลง */
+    }
+}
+
+@media (max-width: 576px) {
+    .banner {
+        gap: 25px; /* ลดช่องว่างระหว่างองค์ประกอบ */
+        align-items: center; /* จัดให้ทุกอย่างอยู่กลาง */
+    }
+
+    .banner img {
+        width: 150px; /* ลดขนาดรูปภาพให้เล็กลง */
+        height: 150px;
+        margin-top: 50px; /* ลดช่องว่างด้านบน */
+    }
+
+    .banner h1 {
+        font-size: 45px; /* ลดขนาดฟอนต์หัวข้อ */
+        width: 90%;
+    }
+
+    .banner p {
+        width: 80%; /* ขยายข้อความให้กว้างขึ้น */
+        font-size: 16px;
+    }
+
+    .banner-action {
+        flex-direction: column; /* เปลี่ยนจากแนวนอนเป็นแนวตั้ง */
+        gap: 15px; /* ลดช่องว่างระหว่างปุ่ม */
+    }
+
+    .banner-connect, .banner-resume {
+        padding: 15px 30px; /* ลดขนาดปุ่มให้เหมาะสม */
+    }
+}
