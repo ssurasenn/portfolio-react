@@ -1,5 +1,7 @@
 .myproject {
     margin: 80px;
+    justify-content: center ;
+    align-items: center;
     
 }
 .myproject-container {
@@ -54,18 +56,50 @@
     padding: 8px 10px;
 }
 @media (max-width: 768px) {
+    .myproject{
+        
+        padding: 10px;
+
+    }
     .myproject-container {
-        grid-template-columns: 1fr; 
+        justify-content: center ;
+        align-items: center;
+        grid-template-columns: 1fr 1fr; 
     }
     .img-project {
         justify-content: center;
         align-items: center;
+        margin: 0 10px;
+    }
+    .myproject img {
+        box-sizing: border-box;
+        width: 380px;
+        
+        height: 280px;
+    }
+    .myproject-title h1{
+        font-size: 45px;
     }
     
 }
 
 @media (max-width: 576px) {
+    .myproject{
+        justify-content: center ;
+        align-items: center;
+    }
     .myproject-container {
+        justify-content: center ;
+        align-items: center;
         grid-template-columns: 1fr; 
+    }
+    .myproject-title h1{
+        font-size: 45px;
+    }
+    .myproject img {
+        box-sizing: border-box;
+        width: 360px;
+        margin: 0 auto;
+        height: 280px;
     }
 }

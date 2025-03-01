@@ -48,13 +48,23 @@
 }
 /* ปรับขนาดหัวข้อ */
 @media (max-width: 768px) {
+    .technologies{
+        align-items: center; 
+    }
     .technologies h1 {
         font-size: 60px; /* ปรับขนาดหัวเรื่องให้เหมาะสม */
+        
+    }
+    .technologies-list {
+        flex-direction: column;
     }
 }
 
 @media (max-width: 576px) {
     .technologies h1 {
-        font-size: 50px; /* ปรับขนาดหัวเรื่องให้เล็กลง */
+        font-size: 35px; /* ปรับขนาดหัวเรื่องให้เล็กลง */
+    }
+    .technologies-list {
+        flex-direction: column;
     }
 }

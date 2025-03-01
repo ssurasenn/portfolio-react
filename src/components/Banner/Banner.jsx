@@ -37,7 +37,7 @@ const Banner = () => {
         whileInView={{ opacity:1, x:0}}
         initial={{ opacity:0, x: -100}}
         transition={{ duration: 1}}
-        >I am a frontend developer Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, similique?</motion.p>
+        >Trust yourself, I also believe You can do it well.</motion.p>
         <motion.div 
         whileInView={{ opacity: 1, y:0}}
         initial={{ opacity:0 , y: -100}}

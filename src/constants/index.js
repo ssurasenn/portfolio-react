@@ -77,3 +77,22 @@ export const CONTACT = {
   phoneNo: "+66 61-2624544",
   email: "surawutt.srn@gmail.com",
 };
+
+export const WORK_EXPERIENCE = [{
+  year: "Jun.2021 - Dec.2021",
+  role : "Sales consultant",
+  company: "MG Khon Kaen Co., Ltd.",
+  description: "Promote sales, Financing service , Deliver the car off-site"
+},
+{
+  year: "2020 - 2021",
+  role : "Agent Call center",
+  company: "CP Tower Khon Kaen 2",
+  description: "Customer problem solving Promote sales, present products to customers, Coordinate with relevant departments to follow up on work and solve customer problems successfully"
+},
+{
+  year: "2017 - 2020",
+  role : "Barista",
+  company: "homecoffeKKU",
+  description: "Part-time work while studying as a barista, Take orders and serve food/drinks, Manage stock"
+}]

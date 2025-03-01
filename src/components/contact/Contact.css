@@ -122,12 +122,22 @@
         font-size: 40px; /* Make h2 smaller */
     }
 
+    .contact-right {
+        margin: 0px 10px;
+    }
+    .contact-right label {
+        font-size: 18px;
+    }
+    .contact-right input {
+        font-size: 16px;
+    }
     .contact-right input, .contact-right textarea {
-        max-width: 90%; /* Ensure inputs are smaller on small screens */
+        max-width: 70%; /* Ensure inputs are smaller on small screens */
+    
     }
 
     .contact-submit {
-        width: 90%; /* Adjust button size */
+        width: 60%; /* Adjust button size */
         max-width: 500px;
     }
 
@@ -150,23 +160,36 @@
     }
 
     .contact-title h1 {
-        font-size: 50px; /* Make title smaller */
+        font-size: 35px; /* Make title smaller */
     }
 
     .contact-left, .contact-right {
         width: 100%; /* Both sections take full width */
     }
-
+    .contact-detail p {
+        font-size: 16px;
+    }
     .contact-left h2 {
-        font-size: 35px; /* Smaller header */
+        font-size: 25px; /* Smaller header */
+    }
+
+    .contact-right {
+        margin: 0px 10px;
+    }
+    .contact-right label {
+        font-size: 18px;
+    }
+    .contact-right input {
+        font-size: 16px;
+        
     }
 
     .contact-right input, .contact-right textarea {
-        max-width: 90%; /* Ensure inputs are smaller */
+        max-width: 70%; /* Ensure inputs are smaller */
     }
 
     .contact-submit {
-        width: 90%;
+        width: 50%;
         max-width: 400px;
     }
 

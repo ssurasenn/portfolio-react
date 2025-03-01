@@ -29,8 +29,7 @@ const AboutMe = () => {
         transition={{ duration: 1.2}}
         className="about-right">
           <div className="about-wrapper">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit qui eaque perspiciatis similique distinctio quo aliquid pariatur, unde cupiditate!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque veritatis alias perferendis iusto enim deserunt!</p>
+            <p>As an aspiring to front end developer, I possess a passion for understanding complex information with a logical mindset and empathetic curiosity, I like to deal with problems that arise in my work step by step and be enthusiastic to explore the unknown and embrace challenges. I always ready to learn and grow in the field of front end development.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
