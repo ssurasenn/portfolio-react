@@ -38,6 +38,10 @@
     font-weight: 500;    
     gap: 40px;
 }
+.banner-action a {
+    text-decoration: none;
+    color: white;
+}
 .banner-connect {
     padding: 25px 45px;
     border-radius: 50px;

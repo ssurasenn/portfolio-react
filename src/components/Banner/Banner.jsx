@@ -44,7 +44,7 @@ const Banner = () => {
         transition={{ duration: 1.2}}        
         className="banner-action">
             <div className="banner-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect with me</AnchorLink></div>
-            <div className="banner-resume">My resume</div>
+            <a href="/public/files/Resume-Surawut_Surasen-Front End Developer.pdf"className="banner-resume" download="Surawut_Surasen-FrontEnd_Developer.pdf">My resume</a>
         </motion.div>
     </div>
   )
