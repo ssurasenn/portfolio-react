@@ -53,27 +53,23 @@
     }
     .technologies h1 {
         font-size: 60px; /* ปรับขนาดหัวเรื่องให้เหมาะสม */
-        
+        align-items: center;
+        justify-content: center;
     }
     .technologies-list {
         flex-direction: column;
     }
-    .technologies-title {
-        align-items: center;
-        justify-content: center;
-    }
+    
 }
 
 @media (max-width: 576px) {
     .technologies h1 {
         font-size: 35px; /* ปรับขนาดหัวเรื่องให้เล็กลง */
-        
+        align-items: center;
+        justify-content: center;
     }
     .technologies-list {
         flex-direction: column;
     }
-    .technologies-title {
-        align-items: center;
-        justify-content: center;
-    }
+    
 }
